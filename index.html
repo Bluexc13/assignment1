@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+<title>Bwm355_Portfolio</title>   
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    
+    
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.anchor.js" type="text/javascript"></script>
+<script>
+    TweenMax.staggerFrom(".btn", 2, {scale:0.5, opacity:0, delay:0.5, ease:Elastic.easeOut, force3D:true}, 0.2);
+
+$(".btn").click(function(){
+  TweenMax.staggerTo(".btn", 0.5, {opacity:0, y:-100, ease:Back.easeIn}, 0.1);
+});
+</script>
+    
+    
+<link rel="stylesheet" type="text/css" href="../Portfolio/style.css">
+<link rel="stylesheet" type="text/css" media="(max-width: 580px)" href="../Portfolio/phone.css">
+</head>
+    
+    
+<div class="slide_animation"> 
+    
+    
+<body>
+    <a name="home" class="home"></a> 
+<div class="header">   
+
+<div class="nav">   
+<ul>
+<li class="#home"><a href="#home">Home</a></li> 
+<li class="#about"><a href="#aboutme">About Me</a></li>
+<li class="#work"><a href="#collegework">College Work</a></li>
+<li class="#gallery"><a href="#gallery">Image Gallery</a></li> 
+<li class="#resume"><a href="#resume">Resume</a></li> 
+<li class="#contact"><a href="#contact">Contact Me</a></li>         
+</ul>
+</div> 
+    
+<img class="me" src="images/profile.jpg" alt="Jeff" style="width:240px;height:320px;">
+    
+<a name="aboutme" class="aboutme"></a>
+<h1>My Portfolio</h1>
+</div>
+
+<div class="container">
+<div class="main">
+<div class="nav2">
+    
+<ul class="nav2">
+<li><a href="#home" class="button1">About Me</a></li> 
+<li><a href="#home" class="button2">College Work</a></li> 
+<li><a href="#home" class="button3">Image Gallery</a></li> 
+<li><a href="#home" class="button4">Resume</a></li> 
+<li><a href="#home" class="button5">Contact Me</a></li> 
+</ul>
+
+<h2>---About Me---</h2>
+    <a name="collegework" class="collegework"></a>
+<p>My name is Jeffrey Stanely. I'm in the third year of my Web and Interactive Media Major at Pennsylvania College of Technology. Currently I am the school's assistant videographer. I'm also working towards a minor in Marketing. If you're intrested in working with me visit my contact information page.
+</p>
+
+    
+<h2>---College Work---</h2>
+<p>Here is a list of Web and Interactive Media classes I've taken.<br>-Interactive Media in the Digital Age<br>-Introduction to Web Page Development<br>-Digital Photography<br>-Digital Video Production<br>-Introduction to Scripting and Databases<br>-Mastering Web Design Tools and Technologies<br>-Web and Organizational Security<br>-Creating Web Applications<br>-Advanced Web Design Practices<br>-Electronic Media and Law<br>-Interactive Media Internship<br>-Interactive Animation<br>-Media Evolution and Social Influence<br>-Black-and-White Photography</p>
+<br><br>
+    
+   <a name="gallery" class="gallery"></a> 
+<p>Here is a sample CSS3 animation that I've done.<br>
+    <a href="http://bwm355.jeffs19.com/assignment3/index_2.html">CSS3 Animations</a><br>
+<p>Here are some sample GSAP animations that I've done.<br>
+    <a href="http://bwm355.jeffs19.com/assignment4/into_the_wind/index.html">Into The Wind</a><br>
+    <a href="../burger_boy/index.html">Burger Boy</a><br>
+   
+<p>Adobe Edge Animate example<br>
+    <a href="../slideshow/slideshow.html">Adobe Edge Animate</a><br>
+    
+<p>HTML5 Canvas example</p>
+  <canvas id="myCanvas" width="578" height="400"></canvas>
+   <canvas id="myCanvas" width="578" height="400"></canvas>
+    <script>
+      function drawImage(imageObj) {
+        var canvas = document.getElementById('myCanvas');
+        var context = canvas.getContext('2d');
+        var x = 69;
+        var y = 50;
+
+        context.drawImage(imageObj, x, y);
+
+        var imageData = context.getImageData(x, y, imageObj.width, imageObj.height);
+        var data = imageData.data;
+
+        for(var i = 0; i < data.length; i += 4) {
+          var brightness = 0.34 * data[i] + 0.5 * data[i + 1] + 0.16 * data[i + 2];
+          // red
+          data[i] = brightness;
+          // green
+          data[i + 1] = brightness;
+          // blue
+          data[i + 2] = brightness;
+        }
+
+        // overwrite original image
+        context.putImageData(imageData, x, y);
+      }
+      
+      var imageObj = new Image();
+      imageObj.onload = function() {
+        drawImage(this);
+      };
+      imageObj.src = 'images/gallery1.jpg';
+    </script>
+    
+    
+<br><br><br><br>
+</div>
+   
+
+<h2>---Image Gallery---</h2>
+<p>Besides being the college's assistant videographer I also do some photography on the side. Here are some samples of my work.</p>
+
+<div class="gallery">
+<img src="images/gallery1.jpg" alt="" style="width:140px;height:128px;">
+<img src="images/gallery2.jpg" alt="" style="width:140px;height:128px;">  
+<img src="images/gallery3.jpg" alt="" style="width:140px;height:128px;">
+<img src="images/gallery4.jpg" alt="" style="width:140px;height:128px;">
+<img src="images/gallery5.jpg" alt="" style="width:140px;height:128px;">
+<img src="images/gallery6.jpg" alt="" style="width:140px;height:128px;">    
+<img src="images/gallery7.jpg" alt="" style="width:140px;height:128px;">
+<img src="images/gallery8.jpg" alt="" style="width:140px;height:128px;">
+<img src="images/gallery9.jpg" alt="" style="width:140px;height:128px;">
+<img src="images/gallery10.jpg" alt="" style="width:140px;height:128px;">
+<img src="images/gallery11.jpg" alt="" style="width:140px;height:128px;">
+<img src="images/gallery12.jpg" alt="" style="width:140px;height:128px;">
+<img src="images/gallery13.jpg" alt="" style="width:140px;height:128px;">
+<img src="images/gallery14.jpg" alt="" style="width:140px;height:128px;">
+<img src="images/gallery15.jpg" alt="" style="width:140px;height:128px;"><a name="resume" class="resume"></a>
+</div>
+   
+    
+<h2>---Resume---</h2>
+<p>Here is an up-to-date version of my resume.</p>
+<div class="resume">
+<img src="images/resume.png" alt="resume" style="width:240px;height:320px" align="middle;">
+</div></a>
+<br><br><br><br>
+    
+
+    <a name="contact" class="contact">
+<h2>---Contact Me---</h2>
+<p>Here you can find out how to get in contact with me.<br>Email: jas39@pct.edu<br>Phone: (717) 814-0019<br>Facebook: Jeff Stanley<br>Twitter: @JeffreyStanley7</p>
+<br><br><br><br>
+</div>
+</div> 
+
+    
+<div class="footer">
+<h3>Copyright &copy; December 4, 2015 | Webmaster</h3>
+</div>
+</div>
+</div> 
+
+
+</div>
+</body>
+<!-- load scripts after dom has been rendered -->
+    
+    <!-- GSAP plugins -->
+    <script src="js/gsap/TweenMax.js"></script>
+    <script src="js/jquery/jquery-1.11.3.js"></script>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery.anchor.js" type="text/javascript"></script>
+    <script>
+
+    </script>
+
+</html>

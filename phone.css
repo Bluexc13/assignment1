@@ -1,0 +1,175 @@
+/****************************** Start of Mobile CSS (break pt. 580px) ********************/
+
+@media screen and (max-width:580px) {
+
+@viewport {
+	zoom:1.0;
+	width:device-width;
+}
+
+h1 {
+	font-size:0px;
+	}
+}
+
+p {
+	font-size:1.25em;
+}
+
+body {
+	background-image: url();
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:100%;
+    margin:auto;
+	
+}
+
+.header {
+	display:none;
+}
+	
+#container {
+	max-width:100%;
+}	
+	
+.main {
+}		
+
+/********************************** Start of Nav1 (Mobile) *******************************/
+	
+.nav li{
+	display:none;
+}
+
+.nav {
+	display:none;
+}	
+	
+/********************************** End of Nav1 (Mobile) *********************************/
+/********************************** Start of Nav2 (Mobile) *******************************/
+	
+.nav2 li{
+	display:block;
+	font-size:20px;
+	padding-bottom:10px;
+	padding-top:10px;
+	list-style-type:none;
+	text-align:center;
+	width:100%;
+}
+	
+.nav2 li a:hover {
+	text-decoration:none;
+	color:white;
+}
+
+.nav2 a:link {
+	text-decoration:none;
+	color:white;
+}
+
+.nav2 a:visited {
+	text-decoration:none;
+	color:white;
+}
+
+.nav2 a:active {
+	background-color:#666666;
+	text-decoration:none;
+	color:black;
+}	
+
+/****************************** End of Nav2 (Mobile)**************************************/
+/****************************** Start of Button Editing **********************************/
+	
+.button1 {
+	background-color:grey;
+	display:block;
+	margin:;
+	width:90%;
+	padding-top:3%;
+	padding-bottom:3%;
+	border-top-left-radius:.25em;
+	border-top-right-radius:.25em;
+	border-bottom-left-radius:.25em;
+	border-bottom-right-radius:.25em;
+}
+	
+.button2 {
+	background-color:grey;
+	display:block;
+	margin:;
+	width:90%;
+	padding-top:3%;
+	padding-bottom:3%;
+	border-top-left-radius:.25em;
+	border-top-right-radius:.25em;
+	border-bottom-left-radius:.25em;
+	border-bottom-right-radius:.25em;
+}	
+	
+.button3 {
+	background-color:grey;
+	display:block;
+	margin:;
+	width:90%;
+	padding-top:3%;
+	padding-bottom:3%;
+	border-top-left-radius:.25em;
+	border-top-right-radius:.25em;
+	border-bottom-left-radius:.25em;
+	border-bottom-right-radius:.25em;
+}	
+	
+.button4 {
+	background-color:grey;
+	display:block;
+	margin:;
+	width:90%;
+	padding-top:3%;
+	padding-bottom:3%;
+	border-top-left-radius:.25em;
+	border-top-right-radius:.25em;
+	border-bottom-left-radius:.25em;
+	border-bottom-right-radius:.25em;
+}	
+	
+.button5 {
+	background-color:grey;
+	display:block;
+	margin:;
+	width:90%;
+	padding-top:3%;
+	padding-bottom:3%;
+	border-top-left-radius:.25em;
+	border-top-right-radius:.25em;
+	border-bottom-left-radius:.25em;
+	border-bottom-right-radius:.25em;
+}	
+		
+.button6 {
+	background-color:grey;
+	display:block;
+	margin:auto;
+	width:90%;
+	padding-top:3%;
+	padding-bottom:3%;
+	border-top-left-radius:.25em;
+	border-top-right-radius:.25em;
+	border-bottom-left-radius:.25em;
+	border-bottom-right-radius:.25em;
+}
+	
+/****************************** End of Button Editing ************************************/		
+	
+#image {
+	display:none;
+}	
+
+#image2 {
+	display:none;
+}
+
+.footer {
+}	
