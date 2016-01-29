@@ -27,7 +27,7 @@ p {
   margin-top: 0px;
   font-size: 20px;
   padding-left: 5%;
-  background-color: #7F6C65;
+  background-color: #63544e;
   line-height: 2; }
 
 .container {
@@ -35,12 +35,12 @@ p {
   width: 100%; }
 
 body {
-  background-color: #CCB6A1;
+  background-color: #ba9c80;
   margin: auto;
   margin-top: 2%; }
 
 .main {
-  background-color: #7F6C65;
+  background-color: #63544e;
   padding: 30px;
   margin-right: 0%;
   margin-left: 3%;
